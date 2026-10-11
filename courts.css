@@ -1,0 +1,75 @@
+.court-photo {
+  margin: -18px -18px 16px;
+  overflow: hidden;
+  border-radius: 18px 18px 0 0;
+  background: #dce8d4;
+}
+
+.court-illustration {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.court-details {
+  display: grid;
+  gap: 7px;
+  padding: 12px 0;
+  border-top: 1px solid #e7ebe5;
+  border-bottom: 1px solid #e7ebe5;
+  color: #56665e;
+  font-size: 12px;
+}
+
+.court-details span:nth-child(2) {
+  font-weight: 700;
+  color: #183f34;
+}
+
+.court-details span:nth-child(3) {
+  font-weight: 700;
+  color: #183f34;
+}
+
+.booking-hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid #dde3dc;
+  border-radius: 13px;
+  padding: 10px 13px;
+  color: #183f34;
+  font-size: 14px;
+}
+
+.booking-hours strong {
+  color: #738079;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.court-time strong {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #30483d;
+  font-size: 12px;
+}
+
+.court-time label {
+  display: block;
+}
+
+.court-slot-select {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 10px 12px;
+  border: 1px solid #dfe5df;
+  border-radius: 10px;
+  background: #fff;
+  color: #183f34;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+}

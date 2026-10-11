@@ -1,0 +1,139 @@
+.facility-link-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.facilities-hero {
+  padding: 76px 0 68px;
+  background: #eff2e8;
+}
+
+.facilities-hero h1 {
+  margin: 22px 0 14px;
+  font-size: clamp(48px, 7vw, 76px);
+  line-height: .98;
+  letter-spacing: -4px;
+}
+
+.facilities-hero h1 em {
+  color: #789c50;
+  font-style: normal;
+}
+
+.facilities-hero p {
+  max-width: 560px;
+  margin: 0 0 25px;
+  color: #68766f;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.facilities-section {
+  padding: 70px 0;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.facility-card {
+  overflow: hidden;
+  border: 1px solid #e2e6df;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.facility-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.facility-art {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  background: #e9efe6;
+}
+
+.facility-copy {
+  padding: 19px 21px 22px;
+}
+
+.facility-card h3 {
+  margin: 0 0 8px;
+  font-size: 17px;
+}
+
+.facility-card p {
+  margin: 0;
+  color: #697770;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.facilities-booking {
+  padding: 48px 0;
+  background: #eaf0df;
+}
+
+.facilities-booking-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.facilities-booking h2 {
+  margin: 12px 0 0;
+  font-size: clamp(28px, 4vw, 42px);
+  letter-spacing: -2px;
+}
+
+@media (max-width: 850px) {
+  .nav-links.mobile-open {
+    position: absolute;
+    top: 76px;
+    right: 4%;
+    left: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 8px 16px;
+    border: 1px solid #e3e5dc;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 15px 35px #10231f1c;
+  }
+
+  .nav-links.mobile-open a {
+    padding: 12px 4px;
+  }
+
+  .facilities-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .facilities-hero {
+    padding: 54px 0;
+  }
+
+  .facilities-hero h1 {
+    letter-spacing: -3px;
+  }
+
+  .facilities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .facilities-booking-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
